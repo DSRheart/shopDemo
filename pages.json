@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/index/index",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/car/car",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#C0C8D3",
+		"selectedColor":"#C1164B",
+		"list":[
+			{
+				"iconPath":"static/mian_home_default.png",
+				"selectedIconPath":"static/mian_home_select.png",
+				"text":"首页",
+				"pagePath":"pages/index/index"
+			},
+			{
+				"iconPath":"static/mian_calssify_default.png",
+				"selectedIconPath":"static/mian_calssify_select.png",
+				"text":"分类",
+				"pagePath":"pages/classify/classify"
+			},
+			{
+				"iconPath":"./static/mian_car_default.png",
+				"selectedIconPath":"static/mian_car_select.png",
+				"text":"购物车",
+				"pagePath":"pages/car/car"
+			},
+			{
+				"iconPath":"static/mian_mine_default.png",
+				"selectedIconPath":"static/mian_mine_select.png",
+				"text":"我的",
+				"pagePath":"pages/mine/mine"
+			}
+		]
+	}
+}
