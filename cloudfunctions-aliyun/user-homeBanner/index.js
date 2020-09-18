@@ -7,6 +7,6 @@ exports.main = async (event, context) => {
 	}).get()
 	return {
 		message:"succ",
-		result:JSON.stringify(s)
+		result:s
 	}
 };
